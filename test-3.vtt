@@ -11,21 +11,27 @@ STYLE
   color: peachpuff;
 }
 
-::cue(c) {
-  color: peachpuff;
+::cue.red {
+  color: red;
+}
+::cue.blue {
+  color: blue;
+}
+::cue.white {
+  color: white;
 }
 
 1
 00:00:00.000 --> 00:00:03.000
-What <c.reb>exactly</c> is <b>artificial</b> intelligence? 1
+What <c class="red">exactly</c> is <b>artificial</b> intelligence? 1
 
 2
 00:00:03.000 --> 00:00:06.000
-What <c.white>exactly</c> is <i>artificial</i> intelligence? 2
+What <c class="blue">exactly</c> is <i>artificial</i> intelligence? 2
 
 3
 00:00:06.000 --> 00:00:08.000
-What <c.black>exactly</c> is <b>artificial</b> intelligence? 3
+What <c class="white">exactly</c> is <b>artificial</b> intelligence? 3
 
 4
 00:00:08.000 --> 00:00:14.500
